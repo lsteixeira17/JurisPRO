@@ -1122,7 +1122,7 @@ function App() {
                   <p className="text-sm text-gray-600">{cliente.cpf}</p>
                   <p className="text-sm text-gray-600">{cliente.telefone}</p>
                   <p className="text-sm text-gray-600">{cliente.email}</p>
-                  {cliente.endereco && <p className="text-sm text-gray-600">{cliente.endereco}</p>} {/* NOVO */}
+                  {cliente.endereco && <p className="text-sm text-gray-600">{cliente.endereco}</p>}
                 </CardContent>
               </Card>
             ))}
